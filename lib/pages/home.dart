@@ -22,7 +22,7 @@ List categories=[
     return Scaffold (
       backgroundColor: Color(0xfff2f2f2),
       body: Container(
-        margin: EdgeInsets.only(top: 50.0, left: 20.0, right: 20),
+        margin: EdgeInsets.only(top: 30.0, left: 20.0, right: 20),
         child: Column (
           crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -120,6 +120,7 @@ Row(
                   scrollDirection: Axis.horizontal,
                   children: [
                     Container(
+                       margin: EdgeInsets.only(right: 20.0),
                       padding: EdgeInsets.symmetric(horizontal: 20.0),
                       decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.circular(10)),
                       child: Column(children: [
@@ -138,7 +139,69 @@ Row(
                           ],
                         )
                       ],),
-                    )
+                    ),
+
+                    Container(
+                      height: 240,
+                      child: ListView(
+                        shrinkWrap: true,
+                        scrollDirection: Axis.horizontal,
+                        children: [
+                          Container(
+                            margin: EdgeInsets.only(right: 20.0),
+                            padding: EdgeInsets.symmetric(horizontal: 20.0),
+                            decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.circular(10)),
+                            child: Column(children: [
+                              Image.asset("images/watch2.png", height: 150,width: 150,fit: BoxFit.cover,),
+                              Text("Apple Watch", style: AppWidget.semiboldTextFeildStyle(),),
+                              SizedBox(height: 10.0,),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text("\$200",style: TextStyle(color: Color(0xFFfd6f3e),fontSize: 20.0, fontWeight: FontWeight.bold),),
+                                  SizedBox(width: 50,),
+                                  Container(
+                                      padding: EdgeInsets.all(5),
+                                      decoration: BoxDecoration(color: Color(0xFFfd6f3e), borderRadius: BorderRadius.circular(7)),
+                                      child: Icon(Icons.add, color: Colors.white,))
+                                ],
+                              )
+                            ],),
+                          ),
+                        ],
+                      ),
+                    ),
+
+                    Container(
+                      height: 240,
+                      child: ListView(
+                        shrinkWrap: true,
+                        scrollDirection: Axis.horizontal,
+                        children: [
+                          Container(
+                            padding: EdgeInsets.symmetric(horizontal: 20.0),
+                            decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.circular(10)),
+                            child: Column(children: [
+                              Image.asset("images/laptop2.png", height: 150,width: 150,fit: BoxFit.cover,),
+                              Text("Laptop", style: AppWidget.semiboldTextFeildStyle(),),
+                              SizedBox(height: 10.0,),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text("\$1000",style: TextStyle(color: Color(0xFFfd6f3e),fontSize: 20.0, fontWeight: FontWeight.bold),),
+                                  SizedBox(width: 50,),
+                                  Container(
+                                      padding: EdgeInsets.all(5),
+                                      decoration: BoxDecoration(color: Color(0xFFfd6f3e), borderRadius: BorderRadius.circular(7)),
+                                      child: Icon(Icons.add, color: Colors.white,))
+                                ],
+                              )
+                            ],),
+                          ),
+                        ],
+                      ),
+                    ),
+
                   ],
                 ),
               )
