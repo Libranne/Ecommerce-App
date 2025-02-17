@@ -44,7 +44,7 @@ List categories=[
         ),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(20.0),
-                    child: Image.asset("images/boy.jpg", height: 70, width: 70,fit: BoxFit.cover,))
+                    child: Image.asset("images/login.png", height: 70, width: 70,fit: BoxFit.cover,))
                 ]
         ),
 SizedBox(height: 30.0,),
@@ -63,7 +63,7 @@ Row(
       style: AppWidget.semiboldTextFeildStyle(),
     ),
     Text("See all",
-      style: TextStyle(color: Color(0xFFfd6f3e), fontSize: 18.0, fontWeight: FontWeight.bold),
+      style: TextStyle(color: Color(0xff14a7dd), fontSize: 18.0, fontWeight: FontWeight.bold),
     )
   ],
 ),
@@ -75,7 +75,7 @@ Row(
               padding: EdgeInsets.all(20.0),
         margin: EdgeInsets.only(right: 20.0),
         decoration: BoxDecoration(
-            color: Color(0xFFFD6F3E), borderRadius: BorderRadius.circular(10)
+            color: Color(0xFF14A7DD), borderRadius: BorderRadius.circular(10)
         ),
 
         child: Center(
@@ -107,7 +107,7 @@ Row(
                     style: AppWidget.semiboldTextFeildStyle(),
                   ),
                   Text("See all",
-                    style: TextStyle(color: Color(0xFFfd6f3e), fontSize: 18.0, fontWeight: FontWeight.bold),
+                    style: TextStyle(color: Color(0xff14a7dd), fontSize: 18.0, fontWeight: FontWeight.bold),
                   )
                 ],
               ),
@@ -130,11 +130,13 @@ Row(
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text("\$100",style: TextStyle(color: Color(0xFFfd6f3e),fontSize: 20.0, fontWeight: FontWeight.bold),),
+                            Text("\$100",style: TextStyle(color: Color(
+                                0xff14a7dd),fontSize: 20.0, fontWeight: FontWeight.bold),),
                             SizedBox(width: 50,),
                             Container(
                               padding: EdgeInsets.all(5),
-                                decoration: BoxDecoration(color: Color(0xFFfd6f3e), borderRadius: BorderRadius.circular(7)),
+                                decoration: BoxDecoration(color: Color(
+                                    0xff14a7dd), borderRadius: BorderRadius.circular(7)),
                                 child: Icon(Icons.add, color: Colors.white,))
                           ],
                         )
@@ -158,11 +160,13 @@ Row(
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
-                                  Text("\$200",style: TextStyle(color: Color(0xFFfd6f3e),fontSize: 20.0, fontWeight: FontWeight.bold),),
+                                  Text("\$200",style: TextStyle(color: Color(
+                                      0xff14a7dd),fontSize: 20.0, fontWeight: FontWeight.bold),),
                                   SizedBox(width: 50,),
                                   Container(
                                       padding: EdgeInsets.all(5),
-                                      decoration: BoxDecoration(color: Color(0xFFfd6f3e), borderRadius: BorderRadius.circular(7)),
+                                      decoration: BoxDecoration(color: Color(
+                                          0xff14a7dd), borderRadius: BorderRadius.circular(7)),
                                       child: Icon(Icons.add, color: Colors.white,))
                                 ],
                               )
@@ -188,11 +192,13 @@ Row(
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
-                                  Text("\$1000",style: TextStyle(color: Color(0xFFfd6f3e),fontSize: 20.0, fontWeight: FontWeight.bold),),
+                                  Text("\$1000",style: TextStyle(color: Color(
+                                      0xff14a7dd),fontSize: 20.0, fontWeight: FontWeight.bold),),
                                   SizedBox(width: 50,),
                                   Container(
                                       padding: EdgeInsets.all(5),
-                                      decoration: BoxDecoration(color: Color(0xFFfd6f3e), borderRadius: BorderRadius.circular(7)),
+                                      decoration: BoxDecoration(color: Color(
+                                          0xff14a7dd), borderRadius: BorderRadius.circular(7)),
                                       child: Icon(Icons.add, color: Colors.white,))
                                 ],
                               )
